@@ -13,8 +13,8 @@ namespace bullshit
         public static new List<int> killable = new List<int>() { 6 };
         public string currentArrow(){return arrows[direction];}
         
-        public string symbol(int choice) { return arrows[choice];}
-        public void move(int move){position += move;}
+        public string Symbol(int choice) { return arrows[choice];}
+        public void Move(int move){position += move;}
 
     }
 }

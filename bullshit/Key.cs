@@ -12,10 +12,6 @@ namespace bullshit
     {
         public static bool Pressed(string Button)
         {
-            /*ConsoleKeyInfo cki;
-            cki = Console.ReadKey();
-            if (cki.Key.ToString() == Button) { Program.cleanBuffer();  return true; }
-            else return false;       */
             char c = Button[0];
 
             if (Console.KeyAvailable)

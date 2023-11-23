@@ -10,7 +10,7 @@ namespace bullshit
     {
         public int position;
         public static string symbol = "¤";
-        public int move()
+        public int Move()
         {
             Random rnd = new Random();
             return rnd.Next(0,4);

@@ -7,7 +7,7 @@ namespace bullshit
 {
     internal class Player
     {
-        public int position;
+        public int position,health=3,maxArrow;
         public static char symbol= '☺';
 
 

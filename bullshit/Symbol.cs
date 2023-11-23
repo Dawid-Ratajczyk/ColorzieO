@@ -20,11 +20,11 @@ namespace bullshit
         0, 0, 0, 0, //2-5 arrows
         4//6 sperg
         };
-        public static string back(int i)
+        public static string Back(int i)
         {
             return sList[i];
         }
-        public static int color(int i)
+        public static int Color(int i)
         {
             return cList[i];
         }
